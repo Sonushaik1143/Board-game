@@ -1,0 +1,13 @@
+Pipeline {
+
+   agent any {
+ 
+    Tool Istall {
+
+      Maven_HOME {
+             stages:
+	       stage :
+	           step:
+
+		    echo "Hello wrold"
+
